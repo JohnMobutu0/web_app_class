@@ -1,16 +1,9 @@
-<<<<<<< HEAD
 
 
 body {
     margin: auto;
     width: 100%;
     background-color: #9d97d8;
-=======
-body {
-    margin: auto;
-    width: 100%;
-    border: 5px solid #1caf286e; 
->>>>>>> af3464de5ad8d18bcfd25f28d1253e430582ecab
   }
   
   #headerParent {
@@ -18,7 +11,6 @@ body {
       display: flex;  
       background-color: #06003b;
   }
-<<<<<<< HEAD
 
   #indexHeaderText {
     color: #7b7f9e;
@@ -35,39 +27,20 @@ body {
   }
   
   #footertext {
-=======
-  
-  #footerParent {
-      border: 1px solid #f5e21600; 
-      display: flex; 
-      background-color: #2bb3268f;
-  }
-  
-  #footerChild1 {
->>>>>>> af3464de5ad8d18bcfd25f28d1253e430582ecab
       width: 100%;
       margin: auto;
       padding: 10px;
       text-align: center;
-<<<<<<< HEAD
       color: #7b7f9e;
   }
   
   #Logo {
       width: 110px;
       height: 90px;
-=======
-  }
-  
-  #Logo {
-      width: 10%;
-      height: 10%;
->>>>>>> af3464de5ad8d18bcfd25f28d1253e430582ecab
       border: 1px dotted #949b96;
       border-radius: 20px;
   }
 
-<<<<<<< HEAD
   #nav ul{
     list-style-type: none;
     margin: 0;
@@ -122,95 +95,10 @@ body {
   }      
   
   #products_div {
-=======
-
-  #ccc {
-      padding: 5px;
-      color: #08085f;
-      font-size: 30px;
-  }
-
-  #macb {
-    padding: 5px;
-    color: #08085f;
-    font-size: 30px;
-}
-
-
-#sams {
-  padding: 5px;
-  color: #08085f;
-  font-size: 30px;
-}
-
-
-#sma {
-  padding: 5px;
-  color: #08085f;
-  font-size: 30px;
-}
-
-#dog {
-  padding: 5px;
-  color: #08085f;
-  font-size: 30px;
-}
-
-  #description {
-    padding: 10px;
-    color: #d3d3d3;
-    font-size: 30px;
-    margin: auto;
-}
-  
-
- 
-  #indexHeaderText {
-      color: #7b7f9e;
-      font-size: 60px;
-      display: inline;
-      padding: 10px;
-      margin: auto;
-  }
-  
-  
-  #nav ul{
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      background-color: #1ac99dc5;
-  }
-  
-  #nav  li {
-    float: left;
-  }
-  
-  #nav  li a {
-    display: block;
-    color: #635858;
-    text-align: center;
-    padding: 16px;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  #nav  li a:hover {
-    background-color: #16aef5;
-  }
-  
-  #sectionDiv1 {
-      width: 100%;
-      background-color: #1e3377c5;
-  }
-  
-  #sectionDiv2 {
->>>>>>> af3464de5ad8d18bcfd25f28d1253e430582ecab
       width: 100%;
       margin: auto;
       text-align: justify;
       text-justify: inter-word;
-<<<<<<< HEAD
   }
 
 
@@ -361,48 +249,6 @@ width: 80%;
     height: auto;
     color: #C7A317;
   }
-=======
-      background-color: #46b823c5;
-      border: dotted #ffffff00;
-  }
-  
-  #Macbook_index_page {
-      display: block;
-      margin: auto;
-      width: 15%;
-      border: 1px dotted #C7A317;
-      border-radius: 10px;
-  }
-
-  #sumsung_index_page {
-      display: block;
-      margin: auto;
-      width: 15%;
-      border: 1px dotted #C7A317;
-      border-radius: 10px;
-}
-#dog_index_page {
-      display: block;
-      margin: auto;
-      width: 15%;
-      border: 1px dotted #C7A317;
-      border-radius: 10px;
-}
-  
-  #watch_index_page {
-    display: block;
-    margin: auto;
-    width: 15%;
-    border: 1px dotted #C7A317;
-    border-radius: 10px;
-  }
-
-  #dlIndexPage {
-    color: #C7A317;
-}
-  
-
->>>>>>> af3464de5ad8d18bcfd25f28d1253e430582ecab
   
   #table, th, td {
       border-collapse: collapse;
