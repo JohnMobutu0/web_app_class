@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="../CSS/other_nav_style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>techShop</title>
+  </head>
+  <body>
+    <header>
+      <div id="headerParent">
+        <!-- the details of the size of this image named log are in css -->
+        <img src="../images/R.png" alt="Logo" id="Logo" />
+        <p id="indexHeaderText">TechShop</p>
+      </div>
+
+      <nav id="nav">
+        <ul>
+          <li><a href="../PHP/index.php">Home</a></li>
+          <li><a href="../HTML/contact.html">Contact Us</a></li>
+          <li><a href="../HTML/about.html">About</a></li>
+          <li>
+            <a href="../HTML/payment.html">Make payement</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <div id="payment_box">
+        <p id="payment_title_p">Payment</p>
+        <div id="input_box_payment">
+          <div class="input_payment_div">
+            <p class="product_name_payment">Name of the product:</p>
+            <input type="text" id="name" placeholder="Name of product" />
+            <br /><br />
+          </div>
+
+          <div class="input_payment_div">
+            <p class="product_name_payment">Name of the product:</p>
+            <input type="text" id="price" placeholder="Price of product" />
+            <br /><br />
+          </div>
+
+          <button id="validate_payment">Validate</button><br /><br />
+          <button id="btn">Print</button>
+        </div>
+        <table id="display">
+          <tr>
+            <th>Name</th>
+            <th>Price ($)</th>
+          </tr>
+        </table>
+        <p
+          style="
+            font-size: 30px;
+            color: #373942;
+            width: 100px;
+            height: 40px;
+            text-align: center;
+            display: inline-block;
+            margin-left: 100px;
+            padding: 1px;
+          "
+        >
+          Total: $
+        </p>
+        <p
+          class="Total"
+          id="sum"
+          style="
+            font-size: 30px;
+            color: #373942;
+            width: 35px;
+            height: 40px;
+            text-align: center;
+            display: inline-block;
+            margin: 1px;
+            padding: 1px;
+          "
+          onInput="fun1()"
+        ></p>
+      </div>
+    </section>
+
+    <footer>
+      <div id="footerParent">
+        <p id="footertext">&copy; 2024 TechShop. All Rights Reserved</p>
+      </div>
+    </footer>
+    <script src="../Js/script.js"></script>
+  </body>
+</html>
