@@ -1,0 +1,417 @@
+
+
+body {
+    margin: auto;
+    width: 100%;
+    background-color: #06003b;
+  }
+  
+  #headerParent {
+      border: none; 
+      display: flex;  
+      background-color: #06003b;
+  }
+
+  #indexHeaderText {
+    color: #7b7f9e;
+    font-size: 60px;
+    display: inline;
+    padding: 10px;
+    margin: auto;
+}
+
+  #footerParent {
+      border: 1px solid #F5E216; /*Color name: Banana Yellow*/
+      display: flex; /* Aligns the children items in a row direction */
+      background-color: #06003b;
+  }
+  
+  #footertext {
+      width: 100%;
+      margin: auto;
+      padding: 10px;
+      text-align: center;
+      color: #7b7f9e;
+  }
+  
+  #Logo {
+      width: 110px;
+      height: 90px;
+      border: 1px dotted #949b96;
+      border-radius: 20px;
+  }
+
+  #nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1ac99dc5;
+}
+
+#nav  li {
+  float: left;
+}
+
+#nav  li a {
+  display: block;
+  color: #635858;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#nav  li a:hover {
+  background-color: #16aef5;
+}
+
+#about {
+    margin: center;
+    border: 1px dotted #06003b;
+    border-radius: 20px;
+    padding : 10px;
+    margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 3%;
+  margin-bottom: 10%;
+  background: transparent;
+  border: 2px solid rgba(32, 116, 141, 0.712);
+  backdrop-filter: blur(1px);
+  box-shadow: 0 0 10px rgba(38, 92, 173, 0.712);
+  border-radius: 30px;
+
+
+  } 
+
+  #macbook_box {
+    margin: center;
+    border: 1px dotted #06003b;
+    border-radius: 20px;
+    padding : 10px;
+    margin-left: 8%;
+  margin-right: 8%;
+  margin-top: 3%;
+  margin-bottom: 5%;
+  background: transparent;
+  border: 2px solid rgba(32, 116, 141, 0.712);
+  backdrop-filter: blur(1px);
+  box-shadow: 0 0 10px rgba(38, 92, 173, 0.712);
+  border-radius: 30px;
+
+
+  } 
+
+  
+  #payment_box {
+    margin: center;
+    border: 1px dotted #06003b;
+    border-radius: 20px;
+    padding : 10px;
+    margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 3%;
+  margin-bottom: 5%;
+  background: transparent;
+  border: 2px solid rgba(32, 116, 141, 0.712);
+  backdrop-filter: blur(1px);
+  box-shadow: 0 0 10px rgba(38, 92, 173, 0.712);
+  border-radius: 30px;
+
+
+  }
+
+
+#contact {
+  margin: center;
+  border: 1px dotted #06003b;
+  border-radius: 20px;
+  padding : 10px;
+  margin-left: 10%;
+margin-right: 10%;
+margin-top: 3%;
+margin-bottom: 10%;
+background: transparent;
+border: 2px solid rgba(32, 116, 141, 0.712);
+backdrop-filter: blur(1px);
+box-shadow: 0 0 10px rgba(38, 92, 173, 0.712);
+border-radius: 30px;
+
+  } 
+  
+
+
+  
+ #words {
+      width: 50%;      
+    background: transparent;
+    display: inline-block;    
+
+  }
+  #words_mac {
+    width: 90%;      
+  background: transparent;
+  display: inline-block;    
+
+}
+
+  #about_title_p {
+    color: #7b7f9e;
+    font-size: 60px;
+    display: inline;
+    padding: 10px;
+    margin: center;
+    text-align: center;
+    margin-left: 40%;
+  margin-right: 10%;
+}
+
+
+
+#payment_title_p {
+  color: #7b7f9e;
+  font-size: 50px;
+  display: inline;
+  padding: 10px;
+  margin: center;
+  text-align: center;
+  margin-left: 40%;
+margin-right: 10%;
+}
+
+
+
+.product_name_payment {
+  color: #7b7f9e;
+  font-size: 20px;
+  display: inline-block;
+  padding: 10px;
+  margin: center;
+  text-align: center;
+  margin-left: 1%;
+margin-right: 1%;
+}
+
+#contact_title_p {
+  color: #7b7f9e;
+  font-size: 60px;
+  display: inline;
+  padding: 10px;
+  margin: center;
+  text-align: center;
+  margin-left: 40%;
+margin-right: 10%;
+}
+
+  #description_about {
+    border: 1px dotted #06003b;
+    display: inline-block;
+    border-radius: 20px;
+    padding : 10px;
+    margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 3%;
+  background: transparent;
+  border: 2px solid rgba(32, 116, 141, 0.712);
+  backdrop-filter: blur(1px);
+  box-shadow: 0 0 10px rgba(38, 92, 173, 0.712);
+  border-radius: 30px;
+
+}
+
+#description_mac {
+  border: 1px dotted #06003b;
+  border-radius: 20px;
+  padding : 10px;
+  margin-left: 10%;
+margin-right: 10%;
+margin-top: 3%;
+background: transparent;
+border: 2px solid rgba(32, 116, 141, 0.712);
+backdrop-filter: blur(1px);
+box-shadow: 0 0 10px rgba(38, 92, 173, 0.712);
+border-radius: 30px;
+
+}
+
+#contact_details {
+  border: 1px dotted #06003b;
+  display: inline-block;
+  border-radius: 20px;
+  padding : 10px;
+  margin-left: 10%;
+margin-right: 10%;
+margin-top: 3%;
+background: transparent;
+border: 2px solid rgba(32, 116, 141, 0.712);
+backdrop-filter: blur(1px);
+box-shadow: 0 0 10px rgba(38, 92, 173, 0.712);
+border-radius: 30px;
+
+}
+
+
+#input_box_payment {
+border-radius: 20px;
+padding : 10px;
+margin-left: 5%;
+margin-right: 5%;
+margin-top: 5%;
+background: transparent;
+border: 2px solid rgba(32, 116, 141, 0.712);
+backdrop-filter: blur(1px);
+box-shadow: 0 0 10px rgba(38, 92, 173, 0.712);
+border-radius: 30px;
+
+}
+
+  
+  #about_p {
+    text-align: center;
+    color:#7b7f9e;
+    font-size: 30px;
+
+  } 
+  
+#name {
+  width: 40%;
+  height: 60%;
+  border: 2px solid rgba(255, 255, 255, .2);
+  border-radius: 40px;
+  font-size: 16px;
+  color: #7e3e3e;
+  padding: 20px 45px 20px 20px;
+}
+
+#price {
+  width: 40%;
+  height: 60%;
+  border: 2px solid rgba(255, 255, 255, .2);
+  border-radius: 40px;
+  font-size: 16px;
+  color: #7e3e3e;
+  padding: 20px 45px 20px 20px;
+}
+
+#btn {
+    width: 50%;
+    height: 40px;
+    background: #357ea0;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+} 
+
+
+#validate_payment {
+width: 50%;
+  height: 40px;
+  background: #3a72b1e1;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+}
+  
+
+  #div_image_about_aliko {
+  border: 1px dotted #06003b;
+  display: inline-block;
+  border-radius: 30px;
+
+}
+
+#div_image_contact_oldphone {
+
+    border-radius: 30px;
+    display: inline-block;
+    width: 30%;
+    height: 50%;
+
+}
+
+#div_image_about_mac {
+
+  border-radius: 30px;
+  width: 80%;
+  height: 40%;
+  margin: 30px;
+
+}
+
+#oldphone{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    margin: center;
+}
+
+#aliko{
+  width: 100%;
+  height: 100%;
+  border: 1px dotted #949b96;
+  border-radius: 20px;
+  margin: center;
+}
+
+#mac{
+  width: 100%;
+  height: 100%;
+  border: 1px dotted #949b96;
+  border-radius: 20px;
+  margin: center;
+}
+
+
+
+#div_image_about_social {
+    border: 1px dotted #06003b;
+    display: inline-block;
+
+  border-radius: 30px;
+
+}
+
+
+#so{
+    width: 100px;
+    height: 65px;
+    border: 1px dotted #949b96;
+    border-radius: 20px;
+    margin: auto;
+    
+}
+
+table{
+  border-collapse: collapse;
+  width: 50%;
+  margin: 50px auto;
+  background-color: burlywood;
+}
+table, th, td {
+  border: 2px solid black;
+  padding: 5px;
+}
+th {
+  font-size: 30px;
+  font-weight: 700;
+  font-family: Arial;
+  color: #004d00;
+
+}
+td{
+  font-size: 25px;
+  font-weight: 400;
+  font-family: Georgia;
+  color: crimson; 
+  
+}

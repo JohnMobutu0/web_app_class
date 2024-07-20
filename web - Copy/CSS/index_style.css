@@ -1,0 +1,421 @@
+
+
+body {
+  margin: auto;
+  background-color: #06003b;
+  }
+  
+  #headerParent {
+    display: flex;  
+    background-color: #06003b;
+  }
+
+  #indexHeaderText {
+    color: #7b7f9e;
+    font-size: 60px;
+    display: inline;
+    padding: 10px;
+    margin: auto;
+}
+
+  #footerParent {
+      border: 1px solid #16dbf5d8; 
+      display: flex; 
+      background-color: #06003b;
+  }
+  
+  #footertext {
+      width: 100%;
+      padding: 10px;
+      text-align: center;
+      color: #7b7f9e;
+  }
+  
+  #Logo {
+      width: 110px;
+      height: 90px;
+      border: 1px dotted #949b96;
+      border-radius: 20px;
+  }
+
+  #nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1ac99dc5;
+}
+
+#nav  li {
+  float: left;
+}
+
+#nav  li a {
+  display: block;
+  color: #635858;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#nav  li a:hover {
+  background-color: #16aef5;
+}
+
+  
+#description_div {
+  border: 1px dotted #06003b;
+  border-radius: 20px;
+  padding : 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 3%;
+  background: transparent;
+  border: 2px solid rgba(32, 116, 141, 0.712);
+  backdrop-filter: blur(1px);
+  box-shadow: 0 0 10px rgba(38, 92, 173, 0.712);
+  border-radius: 30px;
+
+}
+
+#description_text {
+  padding: 10px;
+  color: #d3d3d3;
+  font-size: 25px;
+  margin: auto;
+}
+
+.first_line_product_in_div {
+    padding: 5px;
+    height: 15%;
+    width: 40%;
+    margin-left: 400px;
+    margin-right: 100px;
+    margin-top: 3%;
+    background: transparent;
+    border: 2px solid rgba(32, 116, 141, 0.712);
+    backdrop-filter: blur(1px);
+    box-shadow: 0 0 10px rgba(38, 92, 173, 0.712);
+    border-radius: 30px;
+
+
+  }  
+  
+  #first_line_product_in_div__p {
+    text-align: center;
+    color:#7b7f9e;
+    font-size: 30px;
+
+  }      
+  
+  #products_div {
+      width: 100%;
+      margin: auto;
+  }
+
+
+  #first_line_product_in_div {
+    padding: 5px;
+    background-color: #06003b;
+    width: 100%;
+    height: 2%;
+
+  }  
+  
+  #first_line_product_in_div__p {
+    text-align: center;
+    color:#7b7f9e;
+    font-size: 30px;
+
+  }  
+
+
+#products {
+  margin-top: 1%;    
+}
+
+
+
+#macbook_box {
+  width: 20%;
+  height: 30%;
+  border-radius: 10px;
+  display: inline-block;
+  margin-left: 40px;
+  margin-right: 45px;
+  margin-top: 3%;
+  background: transparent;
+  border: 2px solid rgba(32, 116, 141, 0.712);
+  backdrop-filter: blur(3px);
+  box-shadow: 0 0 15px rgba(38, 92, 173, 0.829);
+  }
+
+  #macbook_text {
+    margin: auto;
+    color: #7b7f9e;
+    
+}
+
+#macbook_image {
+  width: 100%;
+  height: 95%;
+  border-radius: 10px;
+}
+
+#samsung_s23_box {
+width: 20%;
+height: 30%;
+border-radius: 10px;
+display: inline-block;
+margin-left: 10px;
+margin-right: 45px;
+margin-top: 3%;
+background: transparent;
+border: 2px solid rgba(32, 116, 141, 0.712);
+backdrop-filter: blur(3px);
+box-shadow: 0 0 15px rgba(38, 92, 173, 0.829);
+}
+
+#samsung_s23_text {
+margin: auto;
+color: #7b7f9e;
+}
+
+#samsung_s23_image {
+  width: 100%;
+  height: 95%;
+  border-radius: 10px;
+}
+
+#smart_watch_box {
+  width: 20%;
+  height: 30%;
+  border-radius: 10px;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 40px;
+  margin-top: 3%;
+  background: transparent;
+  border: 2px solid rgba(32, 116, 141, 0.712);
+  backdrop-filter: blur(3px);
+  box-shadow: 0 0 15px rgba(38, 92, 173, 0.829);
+}
+
+#smart_watch_text {
+margin: auto;
+color: #7b7f9e;
+}
+
+#smart_watch_image {
+  width: 100%;
+  height: 95%;
+  border-radius: 10px;
+}
+
+#dog_box {
+  width: 270px;
+  height: 292px;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 10px;
+  background: transparent;
+  border: 2px solid rgba(32, 116, 141, 0.712);
+  backdrop-filter: blur(3px);
+  box-shadow: 0 0 15px rgba(38, 92, 173, 0.829);
+}
+
+#dog_text {
+color: #7b7f9e;
+}
+
+#dog_image {
+width: 100%;
+height: 91%;
+border-radius: 10px;
+}
+
+#box_nokia {
+  width: 280px;
+  height: 292px;
+  border-radius: 10px;
+  display: inline-block;
+  margin-left: 40px;
+  margin-right: 45px;
+  margin-top: 3%;
+  background: transparent;
+  border: 2px solid rgba(32, 116, 141, 0.712);
+  backdrop-filter: blur(3px);
+  box-shadow: 0 0 15px rgba(38, 92, 173, 0.829);
+}
+#image_nokia {
+  width: 100%;
+  height: 93%;
+  border-radius: 10px;
+
+}
+
+#text_nokia {
+  margin: auto;
+  color: #7b7f9e;
+
+}
+
+
+
+#box_iphone14 {
+  width: 20%;
+  height: 30%;
+  border-radius: 10px;
+  display: inline-block;
+  margin-left: 3px;
+  margin-right: 45px;
+  margin-top: 1%;  
+  background: transparent;
+  border: 2px solid rgba(32, 116, 141, 0.712);
+  backdrop-filter: blur(3px);
+  box-shadow: 0 0 15px rgba(38, 92, 173, 0.829);
+}
+#image_iphone14 {
+  width: 100%;
+  height: 95%;
+  border-radius: 10px;
+
+}
+
+#text_iphone14 {
+  margin: auto;
+  color: #7b7f9e;
+
+}
+
+
+
+
+#box_iphone5 {
+  width: 20%;
+  height: 30%;
+  border-radius: 10px;
+  display: inline-block;
+  margin-left: 4px;
+  margin-right: 45px;
+  margin-top: 1%;  
+  background: transparent;
+  border: 2px solid rgba(32, 116, 141, 0.712);
+  backdrop-filter: blur(3px);
+  box-shadow: 0 0 15px rgba(38, 92, 173, 0.829);
+}
+#image_iphone5 {
+  width: 100%;
+  height: 95%;
+  border-radius: 10px;
+
+}
+
+#text_iphone5 {
+  margin: auto;
+  color: #7b7f9e;
+
+}
+
+
+
+
+#box_ring {
+  width: 20%;
+  height: 30%;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 10px;
+  background: transparent;
+  border: 2px solid rgba(32, 116, 141, 0.712);
+  backdrop-filter: blur(3px);
+  box-shadow: 0 0 15px rgba(38, 92, 173, 0.829);
+}
+#image_ring {
+  width: 100%;
+  height: 95%;
+  border-radius: 10px;
+
+}
+
+#text_ring {
+  margin: auto;
+  color: #7b7f9e;
+
+}
+
+
+
+
+#box_samsung_galaxy_young {
+  width: 280px;
+  height: 315px;
+  border-radius: 10px;
+  display: inline-block;
+  margin-left: 40px;
+  margin-right: 35px;
+  margin-top: 3%;
+  background: transparent;
+  border: 2px solid rgba(32, 116, 141, 0.712);
+  backdrop-filter: blur(3px);
+  box-shadow: 0 0 15px rgba(38, 92, 173, 0.829);
+}
+#image_samsung_galaxy_young {
+  width: 100%;
+  height: 93%;
+  border-radius: 10px;
+
+}
+
+#text_samsung_galaxy_young {
+  margin: auto;
+  color: #7b7f9e;
+
+}
+
+
+
+#box_air {
+  width: 20%;
+  height: 30%;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 10px;
+  background: transparent;
+  border: 2px solid rgba(32, 116, 141, 0.712);
+  backdrop-filter: blur(3px);
+  box-shadow: 0 0 15px rgba(38, 92, 173, 0.829);
+}
+#image_air {
+  width: 100%;
+  height: 95%;
+  border-radius: 10px;
+
+}
+
+#text_air {
+  margin: auto;
+  color: #7b7f9e;
+
+}
+
+
+.logout {
+
+margin: 20px;
+}
+
+
+.logout p a {
+  color: #7e928e;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+
+.logout p  {
+  text-align: center;
+  font-size: 30;
+}
+  
